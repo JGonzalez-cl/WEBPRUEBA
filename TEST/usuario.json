@@ -1,0 +1,12 @@
+{
+    "nombre":"juan",
+    "edad":26,
+    "casado":false,
+    "hobies":["saltar", "correr", "comer" ],
+    "direccion": {
+        "calle":"Hispanidad",
+        "numero":33,
+        "pais":"España"
+    },
+    "nombre_pareja":null
+}

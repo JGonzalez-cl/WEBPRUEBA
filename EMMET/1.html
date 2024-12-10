@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    //div+div>(p>span+em)+bq
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+
+    //div+div>p>span+em^bq
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+
+    //nav>ul>li*5
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    //ul>li.rojo*2
+    <ul>
+        <li class="rojo"></li>
+        <li class="rojo"></li>
+    </ul>
+
+    //ul>li.item*5
+    <ul>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+    </ul>
+
+    //div+h1
+    <div></div>
+    <h1></h1>
+
+    //div#footer
+    <div id="footer"></div>
+    
+    //p.rojo.grande.borde
+    <p class="rojo grande borde"></p>
+
+    //form.wide#search
+    <form action="" class="wide" id="search"></form>
+
+    <a href="" id="go" class="red"></a>
+
+    //main>(header>li*2>a{Enlace$})+footer>p
+   
+    <main>
+        <header>
+            <li>
+                <a href="">Enlace1</a>
+            </li>
+            <li>
+                <a href="">Enlace2</a>
+            </li>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </main>
+
+    //img[src=img/1.jpg alt=foto]+h2{John Doe}+p.profile-description{web developer}+ul>li.flex*2>a[href=link$@4.html target=_blanck]
+
+    <img src="../IMG/1.jpg" alt="foto">
+    <h2>John Doe</h2>
+    <p class="profile-description">web developer</p>
+    <ul>
+        <li class="flex"><a href="link4.html" target="_blanck"></a></li>
+        <li class="flex"><a href="link5.html" target="_blanck"></a></li>
+    </ul>
+</body>
+</html>

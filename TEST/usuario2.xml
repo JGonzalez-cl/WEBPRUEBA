@@ -1,0 +1,12 @@
+<usuarios>
+    <usuario nombre="Juan" edad="26">
+        <direccion calle="Hispanidad" numero="33" pais="España" casado="false"/>
+        <hobies>
+            <hoby nombre="Saltar">
+            <hoby nombre="Correr">
+            <hoby nombre="Comer">
+        </hobies>
+    </usuario>
+
+    <usuario nombre="Ana" edad="18">
+        <direccion calle="Brasil" numero="40" pais="España" casado="false"/>
